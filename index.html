@@ -20,51 +20,58 @@
     crossorigin="anonymous"
   ></script>
 
-     <!-- Custom CSS -->
-     <style>
-      /* Custom styles for hero section */
-      .hero-section {
-        background-image: url("Travel images/Tours.jpg");
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-        background-position: center;
-        padding: 100px 0;
-        color: #fff; /* Text color */
-      }
-    </style>
-
 </head>
 
   <body>
-   
+
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><strong>Epic Adventure</strong></a>
-        </div>
-        <ul style="list-style-type:none;">
-          <li><a href="Home" style="text-decoration: none;">Home</a></li>
-          <li><a href="Destinations "style="text-decoration: none;">Destinations</a></li>
-          <li><a href="Tours" style="text-decoration: none;">Tours</a></li>
-          <li><a href="Contact" style="text-decoration: none;">Contact</a></li>
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Epic Adventure</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Destination</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Tours</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
         </ul>
-      </nav>
+      </header>
     </div>
-    
-    <section>
-    <section class="hero" style="background-image:url('Travel images/Tours.jpg');">
-      <div class="hero-section" style="text-align: center;">
-        <h1>Epic Adventure</h1>
-        <h5>Enjoy the best vacation from all around the world under friendly bugdet terms.</h5>
-        <p>Have the vacation of a life time.</p>
-        <button class="btn btn-success">Book a trip</button>
+
+
+    <div class="px-4 py-5 my-5 text-center"  style="background-image:url('Travel images/The Colosseum.jpg');">
+      <h1 class="display-5 fw-bold text-body-emphasis">Epic Adventure</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Enjoy the best vacation from all around the world under friendly bugdet terms.Have the vacation of a life time.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Book a trip</button>
+        </div>
       </div>
-    </section>
+    </div>
+
+
+    <div class="container my-5">
+      <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+        <button type="button" class="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill" aria-label="Close"></button>
+        <svg class="bi mt-5 mb-3" width="48" height="48"><use xlink:href="#check2-circle"></use></svg>
+        <h1 class="text-body-emphasis">Epic Adventure</h1>
+        <p class="col-lg-6 mx-auto mb-4">
+          Enjoy international vacations any season of the year.
+        </p>
+        <button class="btn btn-warning px-5 mb-5" type="button">
+          Get travellin` now!
+        </button>
+      </div>
+    </div>
+
     
     <!-- Bootstrap cards -->
-      <div class="row">
+    <div class="container">
     <section class="mt-5">Travel Destinations
+      <div class="row">
       <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
     <div class="card" style="width: 18rem">
       <img
@@ -80,8 +87,9 @@
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
     </div>
+  </div>
       
-    <div class=" col-xl-6 col-lg-6 col-md-3 col-sm-1">
+    <div class=" col-xl-6 col-lg-3 col-md-3 col-sm-1">
       <div class="card" style="width: 18rem">
         <img
           src="Travel images/Zanzibar.jpg"
@@ -96,9 +104,10 @@
           <a href="#" class="btn btn-primary">Learn More</a>
         </div>
       </div>
+    </div>
       
-        <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
-<div class="card" style="width: 18rem">
+    <div class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
+     <div class="card" style="width: 18rem">
       <img
         src="Travel images/Big Ben.jpg"
         class="card-img-top"
@@ -112,8 +121,9 @@
         <a href="#" class="btn btn-primary">Learn More</a>
       </div>
     </div>
+  </div>
     
-      <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
+      <div class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
       <div class="card" style="width: 18rem">
         <img
           src="Travel images/Sydney.jpg"
@@ -128,8 +138,9 @@
           <a href="#" class="btn btn-primary">Learn More</a>
         </div>
       </div>
+    </div>
 
-        <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
+        <div class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
         <div class="card" style="width: 18rem">
           <img
             src="Travel images/FerrisWheel.jpg"
@@ -143,9 +154,10 @@
             </p>
             <a href="#" class="btn btn-primary">Learn More</a>
           </div>
-        </div>
+        </div>  
+      </div>
 
-          <div class="col-xl-6 col-lg-4 col-md-6 col-sm-12">
+          <div class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
           <div class="card" style="width: 18rem">
             <img
               src="Travel images/Effiel tower.jpg"
@@ -160,8 +172,10 @@
               <a href="#" class="btn btn-primary">Learn More</a>
             </div>
           </div>
-          </section>
-          </div>
+        </div>
+      </div>
+    </section>
+  </div>
             <br>
             
             <div class="container" style="background-color: blanchedalmond;">
